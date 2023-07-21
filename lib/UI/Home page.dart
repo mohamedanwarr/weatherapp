@@ -159,6 +159,8 @@ class _HomepageState extends State<Homepage> {
                                     onPressed: () {
                                       _CityController.clear();
                                       showModalBottomSheet(
+                                          isDismissible:true,
+                                        enableDrag: true,
                                           context: context,
                                           isScrollControlled: true,
                                           builder: (context) {
